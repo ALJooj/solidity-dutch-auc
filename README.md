@@ -1,8 +1,26 @@
-# Sample Hardhat Project
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# Написать движок для аукциона (голландского)
 
-Try running some of the following tasks:
+суть: продавец выставляет товар и максимальную цену. если покупатель не нашел -> цена
+падает подискаунту. и как только ктото готов купить кто успевает купить тот и забирает.
+
+
+должно быть реализованно:владелец(площадки которому
+выходит выручка % от продажи), время длительности аукциона, fee(%),
+структура аукциона с полями (продавец, начальная (макс цена), финальная цена,
+начало по времени, окончание по времени, скидка каждую секунду, то что продаем, 
+остановлен ли аукцион), массив аукционов.
+-----------------------
+
+продавец должен давать товар
+
 
 ```shell
 npx hardhat help
