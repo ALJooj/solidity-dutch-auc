@@ -1,13 +1,4 @@
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-
 # Написать движок для аукциона (голландского)
-
 суть: продавец выставляет товар и максимальную цену. если покупатель не нашел -> цена
 падает подискаунту. и как только ктото готов купить кто успевает купить тот и забирает.
 
